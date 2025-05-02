@@ -120,15 +120,11 @@ If we don't specify the `step`, the default value is 1.
 df.loc[`row_label`, `column_name_start`:`column_name_stop`]
 ```
 
-Copy
-
 #### b) With `rows`'s
 
 ```python
 df.loc[`row_name_start`:`row_name_stop` , `column_label`]
 ```
-
-Copy
 
 #### c) With `step`
 
@@ -137,8 +133,6 @@ df.loc[`row_label`, `column_name_start`:`column_name_stop`:n]
 
 df.loc[`row_name_start`:`row_name_stop`:n , `column_label`]
 ```
-
-Copy
 
 #### d) With `step` and `:`
 
