@@ -5,8 +5,6 @@ import pandas as pd
 pd.Series(data, index, name="A name")
 ```
 
-Copy
-
 `Series`s main components are:
 
 - [ ] **data** : this is the data that we want to represent, and obviously, we could say the "most important" component of the series. In our example, the data is the revenue of the companies.
